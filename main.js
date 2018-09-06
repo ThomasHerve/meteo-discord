@@ -22,6 +22,10 @@ client.on('message', (message) => {
     if (message.guild.id != config.servID) {
         return;
     }
+
+    if (message.content.startsWith(config.prefix)) {
+        message.reply(`Prefix trouvé`);
+    }
 })
 
 function getWeather(channel) {
