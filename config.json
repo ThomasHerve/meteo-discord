@@ -1,0 +1,12 @@
+{
+    "prefix": "m.",
+    "token": "NDg2ODgyMzExMzM0NTI2OTc2.DnFkiQ.11lZL1vCQbgc6-QaDj_MjkrhODw",
+    "servID": "234759948909674497",
+    "meteoID": "486887753641099275",
+    "images":{
+        "soleil":"https://i.unimedias.fr/2017/03/21/soleil.png?auto=format%2Ccompress&crop=faces&cs=tinysrgb&fit=crop&h=534&w=950",
+        "pluie":"https://www.francestickers.com/4267-thickbox/stickers-nuage-et-pluie.jpg",
+        "eclair":"https://cdn.pixabay.com/photo/2012/04/11/17/49/thunderbolt-29135_1280.png",
+        "nuages":"https://psycho-corporel.fr/wp-content/uploads/2017/11/nuage-logo.jpg"
+    }
+}
