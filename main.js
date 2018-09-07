@@ -14,6 +14,7 @@ client.on('ready', () => {
     const channel = serv.channels.find("id", config.meteoID);
 
     var j = schedule.scheduleJob("22 12 * * *", () => {
+        console.log("Yes");
         getWeather(channel);
     });
 });
