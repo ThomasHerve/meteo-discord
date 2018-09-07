@@ -13,7 +13,7 @@ client.on('ready', () => {
     const serv = client.guilds.find("id", config.servID);
     const channel = serv.channels.find("id", config.meteoID);
 
-    var j = schedule.scheduleJob("0 12 * * *", () => {
+    var j = schedule.scheduleJob("22 12 * * *", () => {
         getWeather(channel);
     });
 });
