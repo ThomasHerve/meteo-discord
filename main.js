@@ -13,7 +13,7 @@ client.on('ready', () => {
     const serv = client.guilds.find("id", config.servID);
     const channel = serv.channels.find("id", config.meteoID);
 
-    var j = schedule.scheduleJob("26 12 * * *", () => {
+    var j = schedule.scheduleJob("0 * * * *", () => {
         console.log("Yes");
         getWeather(channel);
     });
@@ -43,8 +43,6 @@ function getWeather(channel) {
             "precip": demain.precip,
             "image":""
         }
-        console.log(demain.skytextday);
-        console.log(demain.skytextday == "Partly Sunny");
 
         switch (demain.skytextday) {
             case "Partly Sunny":
