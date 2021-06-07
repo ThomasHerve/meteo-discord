@@ -80,7 +80,7 @@ function getWeather(channel) {
         const embed = new Discord.RichEmbed()
         .setTitle(`Météo du ${demain.date}`)
         .setColor(0x00AE86)
-        .setDescription(`SALUT BANDE DE SALOPE, VOICI DES INFOS POUR DEMAIN:`)
+        .setDescription(`SALUT, VOICI DES INFOS POUR DEMAIN:`)
         .addField("Température min", `${retour.min} °C`, true)
         .addField("Température max", `${retour.max} °C`, true)
         .addField("Etat du ciel", `${retour.temps}`, true)
